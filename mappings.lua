@@ -27,6 +27,12 @@ return {
       end,
       desc = "Pick to close",
     },
+    ["<leader>b<space>"] = {
+      function()
+        require('telescope.builtin').buffers({sort_mru=true})
+      end,
+      desc = "Find buffers (MRU-sorted)",
+    },
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
@@ -37,4 +43,10 @@ return {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
   },
+  v = {
+    ["<C-c>"] = {
+      "\"+y",
+      desc = "Copy selection to clipboard",
+    }
+  }
 }
