@@ -9,4 +9,8 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "kevinhwang91/nvim-bqf",
+    ft = "qf",
+  }
 }
