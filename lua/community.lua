@@ -9,6 +9,7 @@ return {
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.bash" },
+  { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.motion.nvim-surround" },
