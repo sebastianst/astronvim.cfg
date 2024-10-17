@@ -7,6 +7,10 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.go" },
+  {
+    "olexsmir/gopher.nvim",
+    enabled = false,
+  },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.typescript" },
