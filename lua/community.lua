@@ -11,6 +11,7 @@ return {
     "olexsmir/gopher.nvim",
     enabled = false,
   },
+  { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.typescript" },
@@ -29,4 +30,5 @@ return {
   },
   { import = "astrocommunity.debugging.nvim-dap-virtual-text" },
   { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
+  { import = "astrocommunity.git.gitlinker-nvim" },
 }
